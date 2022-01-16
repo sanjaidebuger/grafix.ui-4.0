@@ -31,146 +31,12 @@
     <!--    Style Content-->
     <!-- ===============================================-->
    <style>
-  .header {
-	padding-top: 8rem;
-	padding-bottom: 10em;
-	background: url('../images/header-background.jpg') center center no-repeat;
-	background-size: cover;
-	text-align: center;
-}
-
-.header .h1-large {
-	margin-bottom: 1.75rem;
-}
-
-.header .p-large {
-	margin-bottom: 2.25rem;
-}
-
-.header .image-container {
-	margin-top: 5rem;
-}
-
-
-/********************/
-/*     Services     */
-/********************/
-
-.cards-list {
-    z-index:0;
-    width: 5%;
-    justify-content:center;
-    flex-wrap:nowrap;
-  }
-  
-  .card {
-	margin: 30px auto;
-	
-    border-radius: 40px;
-    cursor: pointer;
-    transition: 0.4s;
-  }
-  
-  .card .card_image {
-    width: inherit;
-    height: inherit;
-    border-radius: 40px;
-  }
-  
-  .card .card_image img {
-    width: inherit;
-    height: inherit;
-    border-radius: 40px;
-    object-fit:cover;
-  }
-  
-  .card .card_title {
-    text-align: center;
-    border-radius: 0px 0px 40px 40px;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    margin-top: -80px;
-    height: 40px;
-  }
-  
-  .card:hover {
-    transform: scale(0.9, 0.9);
-    box-shadow: 5px 5px 30px 15px rgba(240, 240, 240, 0.25), 
-      -5px -5px 30px 15px rgba(233, 233, 233, 0.22);
-  }
-  
-  @media all and (max-width: 500px) {
-    .card-list {
-      /* On small screens, we are no longer using row direction but column */
-      flex-direction: column;
-    }
-  }
 
 
 
-.image__img {
-    display: block;
-    width: 100%;
-}
 
-.image__overlay {
-    position: absolute;
-    top: 0;
-    left:0;
-    width: 100%;
-    border-radius: 40px 40px 40px 40px;
-    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
-    -5px -5px 30px 15px rgba(32, 121, 204, 0.452);
-    height: 100%;
-    background: rgba(206, 16, 16, 0.6);
-    color: #363232;
-    font-family: 'Quicksand', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.25s;
-}
 
-.image__overlay--blur {
-    backdrop-filter: blur(5px);
-}
-
-.image__overlay--primary {
-  background: rgba( 255, 255, 255, 0.1 );
-  backdrop-filter: blur( 5.5px );
-  -webkit-backdrop-filter: blur( 5.5px );
-}
-
-.image__overlay > * {
-    transform: translateY(1px);
-    transition: transform 1s;
-}
-
-.image__overlay:hover {
-    opacity: 2;
-}
-
-.image__overlay:hover > * {
-    transform: translateY(0);
-}
-
-.image__title {
-  color: rgb(27, 27, 27);
-    font-size: 3em;
-    font-weight: bold;
-}
-
-.image__description {
-  width: 122px;
-    font-size: 1.25em;
-    margin-top: 0.25em;
-}
    </style>
-
-
 
 
 
@@ -271,128 +137,174 @@
 
       <!-- <section> begin ============================-->
 
-        <div id="services" class="cards-1 bg-gray">
+        <section class="py-0 circle-blend circle-blend-right circle-warning" id="service">
           <div class="container">
-              <div class="row">
-                  <div class="col-lg-12">
-                      <div class="section-title">OUR SERVICES</div>
-                      <h2>We Have Dedicated Designer On These</h2>
-                  </div> <!-- end of col -->
-              </div> <br><!-- end of row -->
-              <div class="row">
-                  <div class="col-lg-4">
-                      
-                      <!-- Card -->
-                      <div class="card image">
-                          <img class="card_image image__img" src="./assets/img/illustrations/item-1.jpg" alt="uidesign">
-            
-                        <div class="title-white image__overlay image__overlay--primary">
-                          <div class="image__title">Ui design</div>
-                          <p class="image__description">
-                              Here we have a brick wall.
-                          </p>
-                          <a class="read-more no-line" href="article.html"><span class="fas fa-long-arrow-alt-right"></span></a>
+            <div class="row">
+              <div class="col-lg-7 col-xxl-5 mx-auto text-center py-7">
+                <h5 class="fw-bold fs-3 fs-lg-5 lh-sm mb-3">Services</h5>
+                <p class="mb-0">We offer youth with chances for career development in their practice. We also support a wide range of services to ensure client satisfaction</p>
+              </div>
+            </div>
+            <div class="bg-holder" style="background-image:url(assets/img/illustrations/service.png);background-position:bottom center;background-size:contain;"></div>
+            <!--/.bg-holder-->
+            <div class="row flex-center">
+              <div class="col-xl-9">
+                <div class="row justify-content-center circle">
+
+
+
+
+
+
+
+
+                  <div class="col-md-4 mb-4">
+                    <div class="card card-bg h-100 px-4 px-md-2 px-lg-3 px-xxl-4 pt-4">
+                      <div class="text-center"><img class="my-5" src="assets/img/icons/text.png" width="100" alt="services" />
+                        <div class="card-body text-center text-md-start">
+                          <h6 class="fw-bold fs-1">Ui/Ux design</h6>
+                          <p class="mt-3 mb-md-0 mb-lg-3">We Provide Best Ui/Ux Design Services</p><a class="btn btn-lg ps-0 pe-3 text-primary" href="#" role="button">Learn more<svg class="bi bi-arrow-right-short" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"></path>
+                            </svg></a>
                         </div>
                       </div>
+                    </div>
                   </div>
-                      <!-- end of card -->
-  
-                      <!-- Card -->
-                      <div class="col-lg-4">
-                      
-                          <!-- Card -->
-                          <div class="card image">
-                              <img class="card_image image__img" src="./assets/img/illustrations/item-2.jpg" alt="uidesign">
-                
-                            <div class="title-white image__overlay image__overlay--primary">
-                              <div class="image__title">Ui design</div>
-                              <p class="image__description">
-                                  Here we have a brick wall.
-                              </p>
-                              <a class="read-more no-line" href="article.html"><span class="fas fa-long-arrow-alt-right"></span></a>
-                            </div>
-                          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  <div class="col-md-4 mb-4">
+                    <div class="card card-bg h-100 px-4 px-md-2 px-lg-3 px-xxl-4 pt-4">
+                      <div class="text-center"><img class="my-5" src="assets/img/icons/organized.png" width="100" alt="services" />
+                        <div class="card-body text-center text-md-start">
+                          <h6 class="fw-bold fs-1">Better Organized</h6>
+                          <p class="mt-3 mb-md-0 mb-lg-3">Latest technology and experienced guidance, trained HR specialists to keep updated.</p><a class="btn btn-lg ps-0 pe-3 text-primary" href="#" role="button">Learn more<svg class="bi bi-arrow-right-short" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"></path>
+                            </svg></a>
+                        </div>
                       </div>
-                      <!-- end of card -->
-  
-                      <!-- Card -->
-                      <div class="col-lg-4">
-                      
-                          <!-- Card -->
-                          <div class="card image">
-                              <img class="card_image image__img" src="./assets/img/illustrations/item-3.jpg" alt="uidesign">
-                
-                            <div class="title-white image__overlay image__overlay--primary">
-                              <div class="image__title">Ui design</div>
-                              <p class="image__description">
-                                  Here we have a brick wall.
-                              </p>
-                              <a class="read-more no-line" href="article.html"><span class="fas fa-long-arrow-alt-right"></span></a>
-                            </div>
-                          </div>
+                    </div>
+                  </div>
+
+
+
+
+
+
+
+
+
+
+                  <div class="col-md-4 mb-4">
+                    <div class="card card-bg h-100 px-4 px-md-2 px-lg-3 px-xxl-4 pt-4">
+                      <div class="text-center"><img class="my-5" src="assets/img/icons/organized.png" width="100" alt="services" />
+                        <div class="card-body text-center text-md-start">
+                          <h6 class="fw-bold fs-1">Better Organized</h6>
+                          <p class="mt-3 mb-md-0 mb-lg-3">Latest technology and experienced guidance, trained HR specialists to keep updated.</p><a class="btn btn-lg ps-0 pe-3 text-primary" href="#" role="button">Learn more<svg class="bi bi-arrow-right-short" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"></path>
+                            </svg></a>
+                        </div>
                       </div>
-                      <!-- end of card -->
-  
-  
-                      <!-- Card -->
-                      <div class="col-lg-4">
-                      
-                          <!-- Card -->
-                          <div class="card image">
-                              <img class="card_image image__img" src="./assets/img/illustrations/item-4.jpg" alt="uidesign">
-                
-                            <div class="title-white image__overlay image__overlay--primary">
-                              <div class="image__title">Ui design</div>
-                              <p class="image__description">
-                                  Here we have a brick wall.
-                              </p>
-                              <a class="read-more no-line" href="article.html"><span class="fas fa-long-arrow-alt-right"></span></a>
-                            </div>
-                          </div>
+                    </div>
+                  </div>
+
+
+
+
+
+
+
+
+
+
+                  <div class="col-md-4 mb-4">
+                    <div class="card card-bg h-100 px-4 px-md-2 px-lg-3 px-xxl-4 pt-4">
+                      <div class="text-center"><img class="my-5" src="assets/img/icons/organized.png" width="100" alt="services" />
+                        <div class="card-body text-center text-md-start">
+                          <h6 class="fw-bold fs-1">Better Organized</h6>
+                          <p class="mt-3 mb-md-0 mb-lg-3">Latest technology and experienced guidance, trained HR specialists to keep updated.</p><a class="btn btn-lg ps-0 pe-3 text-primary" href="#" role="button">Learn more<svg class="bi bi-arrow-right-short" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"></path>
+                            </svg></a>
+                        </div>
                       </div>
-                      <!-- end of card -->
-  
-                      <!-- Card -->
-                      <div class="col-lg-4">
-                      
-                          <!-- Card -->
-                          <div class="card image">
-                              <img class="card_image image__img" src="./assets/img/illustrations/item-5.jpg" alt="uidesign">
-                
-                            <div class="title-white image__overlay image__overlay--primary">
-                              <div class="image__title">Ui design</div>
-                              <p class="image__description">
-                                  Here we have a brick wall.
-                              </p>
-                              <a class="read-more no-line" href="article.html"><span class="fas fa-long-arrow-alt-right"></span></a>
-                            </div>
-                          </div>
+                    </div>
+                  </div>
+
+
+
+
+
+
+
+
+
+
+                  <div class="col-md-4 mb-4">
+                    <div class="card card-bg h-100 px-4 px-md-2 px-lg-3 px-xxl-4 pt-4">
+                      <div class="text-center"><img class="my-5" src="assets/img/icons/organized.png" width="100" alt="services" />
+                        <div class="card-body text-center text-md-start">
+                          <h6 class="fw-bold fs-1">Better Organized</h6>
+                          <p class="mt-3 mb-md-0 mb-lg-3">Latest technology and experienced guidance, trained HR specialists to keep updated.</p><a class="btn btn-lg ps-0 pe-3 text-primary" href="#" role="button">Learn more<svg class="bi bi-arrow-right-short" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"></path>
+                            </svg></a>
+                        </div>
                       </div>
-                      <!-- end of card -->
-                       <!-- Card -->
-                       <div class="col-lg-4">
-                      
-                          <!-- Card -->
-                          <div class="card image">
-                              <img class="card_image image__img" src="./assets/img/illustrations/item-6.jpg" alt="uidesign">
-                
-                            <div class="title-white image__overlay image__overlay--primary">
-                              <div class="image__title">Ui design</div>
-                              <p class="image__description">
-                                  Here we have a brick wall.
-                              </p>
-                              <a class="read-more no-line" href="article.html"><span class="fas fa-long-arrow-alt-right"></span></a>
-                            </div>
-                          </div>
+                    </div>
+                  </div>
+
+
+
+
+
+
+
+
+
+
+
+                  <div class="col-md-4 mb-4">
+                    <div class="card card-bg h-100 px-4 px-md-2 px-lg-3 px-xxl-4 pt-4">
+                      <div class="text-center"><img class="my-5" src="assets/img/icons/statistics.png" width="100" alt="services" />
+                        <div class="card-body text-center text-md-start">
+                          <h6 class="fw-bold fs-1">Analytical Statistics</h6>
+                          <p class="mt-3 mb-md-0 mb-lg-3">Messages, real-time reminders, memos, and many more will keep your team in sync.</p><a class="btn btn-lg ps-0 pe-3 text-primary" href="#" role="button">Learn more<svg class="bi bi-arrow-right-short" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"></path>
+                            </svg></a>
+                        </div>
                       </div>
-                      <!-- end of card -->
-  
-                  
-              </div> <!-- end of row -->
-          </div> <!-- end of container -->
-      </div> <!-- end of cards-1 -->
-      <!-- end of services -->
-  
+                    </div>
+                  </div>
+
+
+
+
+
+
+
+
+                </div>
+              </div>
+            </div>
+          </div><!-- end of .container-->
+        </section><!-- <section> close ============================-->
+        <!-- ============================================-->
        
         <!-- feature  -->
         <section class="py-5 circle-blend circle-blend-right-feature          circle-cyan"  id="feature" >
