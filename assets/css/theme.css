@@ -4803,6 +4803,10 @@ fieldset:disabled .btn {
   -ms-flex-direction: column;
   flex-direction: column;
   padding-left: 0;
+  justify-content: end !important;
+  align-items: flex-end !important;
+  text-align: end !important;
+  align-content: flex-end !important;
   margin-bottom: 0;
   list-style: none;
 }
