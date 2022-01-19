@@ -35,7 +35,27 @@
   </head>
  <!-- ===============================================-->
     <!--    Style Content-->
- 
+    <style>
+     .grad{
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+    </style>
     <!-- ===============================================-->
   <body>
     <!-- ===============================================-->
@@ -61,13 +81,13 @@
       <!-- Home -->
       <section id="home"style="padding-bottom:8%;padding-top:15%;">
         <!--/.bg-holder-->
-        <div class="bg-holder  " style="background-image:url(assets/video/hero.gif);background-position:center;opacity:55%;"></div>
+        <div class="bg-holder grad"style="opacity:70%"></div>
         <!--/.bg-holder-->
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-12 col-lg-12 py-6 text-center">
-              <h1 class="display-5 fs-4 fs-lg-6 fs-xl-6 text-gradient "> Let's Make an <br><span class="typewrite" data-period="1500" data-type='[ "Creative", "Awesome", "Extraordinary", "" ]'></span> Designs</h1><br>
-              <p class="mb-5 fs-0 align-content-center text-black">We are highly confident in our promise to serve you better <br> Our focus is to build long term relationships with our customers, not simply a quick sale! </p><a class="btn hover-top btn-glow btn-klean" href="#">Get Started</a>
+              <h1 class="display-5 fs-4 fs-lg-6 fs-xl-6 text-white"> Let's Make an <br><span class="typewrite text-gradient" data-period="1500" data-type='[ "Creative", "Awesome", "Extraordinary", "" ]'></span> Designs</h1><br>
+              <p class="mb-5 fs-0 align-content-center text-white">We are highly confident in our promise to serve you better <br> Our focus is to build long term relationships with our customers, not simply a quick sale! </p><a class="btn hover-top btn-glow btn-klean" href="#">Get Started</a>
             </div>
           </div>
         </div>
@@ -144,7 +164,7 @@
                 <div class="row justify-content-center circle">
                   <div class="col-md-4 mb-4">
                     <div class="card card-bg h-100 px-4 px-md-2 px-lg-3 px-xxl-4 pt-4">
-                      <div class="text-center"><img class="" src="assets/img/illustrations/item-2.png" style="padding:0%;width:100%; border-radius: 10%;" alt="services" />
+                      <div class="text-center"><img class="" src="assets/img/illustrations/item-1.png" style="padding:0%;width:100%; border-radius: 10%;" alt="services" />
                         <div class="card-body text-center text-md-start">
                           <h6 class="fw-bold fs-1">Ui/Ux design</h6>
                           <p class="mt-3 mb-md-0 mb-lg-3">We Provide Best Ui/Ux Design Services</p>
@@ -154,7 +174,7 @@
                   </div>
                   <div class="col-md-4 mb-4">
                     <div class="card card-bg h-100 px-4 px-md-2 px-lg-3 px-xxl-4 pt-4">
-                      <div class="text-center"><img class="" src="assets/img/illustrations/item-1.png" style="padding:0%;width:100%; border-radius: 10%;" alt="services" />
+                      <div class="text-center"><img class="" src="assets/img/illustrations/item-2.png" style="padding:0%;width:100%; border-radius: 10%;" alt="services" />
                         <div class="card-body text-center text-md-start">
                           <h6 class="fw-bold fs-1">Web-Development</h6>
                           <p class="mt-3 mb-md-0 mb-lg-3">Latest technology and experienced guidance, trained HR specialists to keep updated.</p>
@@ -176,7 +196,7 @@
                   </div>
                   <div class="col-md-4 mb-4">
                     <div class="card card-bg h-100 px-4 px-md-2 px-lg-3 px-xxl-4 pt-4">
-                      <div class="text-center"><img class="" src="assets/img/illustrations/item-5.png" style="padding:0%;width:100%; border-radius: 10%;" alt="services" />
+                      <div class="text-center"><img class="" src="assets/img/illustrations/item-4.png" style="padding:0%;width:100%; border-radius: 10%;" alt="services" />
                         <div class="card-body text-center text-md-start">
                           <h6 class="fw-bold fs-1">Graphic Design</h6>
                           <p class="mt-3 mb-md-0 mb-lg-3">We Provide Best Graphics  Design Services</p>
@@ -186,7 +206,7 @@
                   </div>
                   <div class="col-md-4 mb-4">
                     <div class="card card-bg h-100 px-4 px-md-2 px-lg-3 px-xxl-4 pt-4">
-                      <div class="text-center"><img class="" src="assets/img/illustrations/item-4.png" style="padding:0%;width:100%; border-radius: 10%;" alt="services" />
+                      <div class="text-center"><img class="" src="assets/img/illustrations/item-5.png" style="padding:0%;width:100%; border-radius: 10%;" alt="services" />
                         <div class="card-body text-center text-md-start">
                           <h6 class="fw-bold fs-1">Digital 
                             Marketing</h6>
@@ -219,7 +239,7 @@
           <div class="container">
             <div class="row justify-content-center mb-6">
               <div class="col-lg-6 text-center mx-auto mb-3 mb-md-5 mt-4">
-                <h5 class="fw-bold fs-3 fs-lg-5 lh-sm mb-3">Features</h5>
+                <h5 class="fw-bold fs-3 fs-lg-5 lh-sm mb-3 text-gradient">Features</h5>
                 <p class="mb-0">We provide a number of excellent features that will undoubtedly improve the user experience. We also provide a better support system</p>
               </div>
             </div>
@@ -227,7 +247,7 @@
               <div class="col-md-4 mb-6">
                 <div class="text-center px-lg-3">
                   <div class="icon-wrapper shadow-primary">
-                    <div class="icon icon-primary"><span data-feather="monitor"></span></div>
+                    <div class="icon icon-primary"><span data-feather="monitor" class="text-gradient"></span></div>
                   </div>
                   <h5 class="mt-3 fw-bold">Beautiful Interface Design</h5>
                   <p class="mb-md-0 px-xxl-6">A process of encrypting email communications</p>
@@ -236,7 +256,7 @@
               <div class="col-md-4 mb-6">
                 <div class="text-center px-lg-3">
                   <div class="icon-wrapper shadow-primary">
-                    <div class="icon icon-primary"><span data-feather="monitor"></span></div>
+                    <div class="icon icon-primary"><span data-feather="monitor" class="text-gradient"></span></div>
                   </div>
                   <h5 class="mt-3 fw-bold">Live Video confrence</h5>
                   <p class="mb-md-0 px-xxl-6">With other participants, you may share your screen</p>
@@ -245,7 +265,7 @@
               <div class="col-md-4 mb-6">
                 <div class="text-center px-lg-3">
                   <div class="icon-wrapper shadow-primary">
-                    <div class="icon icon-primary"><span data-feather="book"></span></div>
+                    <div class="icon icon-primary"><span data-feather="book" class="text-gradient"></span></div>
                   </div>
                   <h5 class="mt-3 fw-bold">24/7 support by real people</h5>
                   <p class="mb-md-0 px-xxl-6">Private Notebook is an application that is protected</p>
@@ -254,7 +274,7 @@
               <div class="col-md-4 mb-6">
                 <div class="text-center px-lg-3">
                   <div class="icon-wrapper shadow-primary">
-                    <div class="icon icon-primary"><span data-feather="tablet"></span></div>
+                    <div class="icon icon-primary"><span data-feather="tablet" class="text-gradient"></span></div>
                   </div>
                   <h5 class="mt-3 fw-bold">Web Assistance</h5>
                   <p class="mb-md-0 px-xxl-6">App Assistant is quickly and effectively ran the system</p>
@@ -263,7 +283,7 @@
               <div class="col-md-4 mb-6">
                 <div class="text-center px-lg-3">
                   <div class="icon-wrapper shadow-primary">
-                    <div class="icon icon-primary"><span data-feather="printer"></span></div>
+                    <div class="icon icon-primary"><span data-feather="printer"class="text-gradient"></span></div>
                   </div>
                   <h5 class="mt-3 fw-bold">Social Media Campaigns</h5>
                   <p class="mb-md-0 px-xxl-6">Our canvas prints are crafted on top-notch canvas.</p>
@@ -272,7 +292,7 @@
               <div class="col-md-4 mb-6">
                 <div class="text-center px-lg-3">
                   <div class="icon-wrapper shadow-primary">
-                    <div class="icon icon-primary"><span data-feather="edit-2"></span></div>
+                    <div class="icon icon-primary"><span data-feather="edit-2" class="text-gradient"></span></div>
                   </div>
                   <h5 class="mt-3 fw-bold">Content Research</h5>
                   <p class="mb-md-0 px-xxl-6">Our canvas prints are crafted on top-notch canvas.</p>
@@ -294,23 +314,32 @@
           <!--/.bg-holder-->
           <div class="row justify-content-center circle-blend circle-blend-left-project circle-warning">
             <div class="col-lg-6 text-center mx-auto mb-6">
-              <h5 class="fw-bold fs-3 fs-lg-5 lh-sm mb-3">Our Projects</h5>
+              <h5 class="h1 fw-bold fs-3 fs-lg-5 lh-sm mb-3 text-gradient">Our Projects</h5>
               <p class="mb-0">A project is a single or team activity, combining research and design with best effort. Here are some of our team's projects </p>
             </div>
             <div class="col-xxl-9">
-              <div class="card project-card-bg mx-auto px-0">
+              <div class="card project-card-bg mx-auto px-0"">
                 <div class="card-body">
                   <div class="row align-items-center">
-                    <div class="col-12 col-md-6 col-lg-4 text-center"><img class="mb-3 mb-lg-3 img-fluid px-xl-0" src="assets/img/gallery/project-1.png" width="320" alt="project" /><img class="mb-3 mb-lg-0 img-fluid px-xl-0" src="assets/img/gallery/project-2.png" width="320" alt="project" /></div>
-                    <div class="col-12 col-md-6 col-lg-4 text-center"><img class="mb-3 mb-lg-3 img-fluid px-xl-0" src="assets/img/gallery/project-3.png" width="320" alt="project" /><img class="mb-3 mb-lg-0 img-fluid px-xl-0" src="assets/img/gallery/project-4.png" width="320" alt="project" /></div>
-                    <div class="col-12 col-md-6 col-lg-4 text-center"><img class="mb-3 mb-lg-3 img-fluid px-xl-0" src="assets/img/gallery/project-5.png" width="320" alt="project" /><img class="mb-3 mb-lg-0 img-fluid px-xl-0" src="assets/img/gallery/project-6.png" width="320" alt="project" /></div>
+                    <div class="col-12 col-md-6 col-lg-4 text-center">
+                      <img class="mb-3 mb-lg-3 img-fluid px-xl-0" src="assets/img/gallery/project-1.jpeg" width="320" alt="project"style="border-radius: 5%;" />
+                      <img class="mb-3 mb-lg-0 img-fluid px-xl-0" src="assets/img/gallery/project-2.png" width="320" alt="project" style="border-radius: 5%;" />
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 text-center">
+                      <img class="mb-3 mb-lg-3 img-fluid px-xl-0" src="assets/img/gallery/project-2.jpeg" width="320" alt="project" style="border-radius: 5%;"/>
+                      <img class="mb-3 mb-lg-0 img-fluid px-xl-0" src="assets/img/gallery/project-3.jpeg" width="320" alt="project" style="border-radius: 5%;" />
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 text-center">
+                      <img class="mb-3 mb-lg-3 img-fluid px-xl-0" src="assets/img/gallery/project-4.jpeg" width="320" alt="project"style="border-radius: 5%;" />
+                      <img class="mb-3 mb-lg-0 img-fluid px-xl-0" src="assets/img/gallery/project-5.jpeg" width="320" alt="project" style="border-radius: 5%;"/>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="row">
-            <div class="col-auto mx-auto mt-6"><button class="btn hover-top btn-glow btn-klean" type="submit"><span class=" fw-bold">View More  </span></button></div>
+            <div class="col-auto mx-auto mt-6"><button class="btn hover-top btn-glow btn-klean" type="submit" href="./more.html"><span class=" fw-bold" >View More  </span></button></div>
           </div>
         </div>
       </section><!-- gallery close ============================-->
@@ -370,7 +399,7 @@
         <div class="container-xxl">
           <div class="row">
             <div class="col-lg-6 mx-auto text-center mb-6">
-              <h5 class="fw-bold fs-3 fs-lg-5 lh-sm mb-3">What our clients have to say</h5>
+              <h5 class="fw-bold fs-3 fs-lg-5 lh-sm mb-3 text-gradient">What our clients have to say</h5>
               <p class="mb-0">Our success is determined on how satisfied our customers are with the service. These reviews say we have stuff to do.</p>
             </div>
           </div>
@@ -388,7 +417,7 @@
                         </div>
                       </div>
                       <div class="col-md-5 col-lg-6 col-xl-7 mb-4 ms-xxl-auto"><img class="img-fluid" src="assets/img/gallery/quotation.png" alt="testimonials-bg" />
-                        <h5 class="fw-bold text-gradient fs-4 mt-4">Outstanding!!</h5>
+                        <h5 class="fw-bold text-white fs-4 mt-4">Outstanding!!</h5>
                         <p class="mt-4 pe-xxl-8">I just wanted to drop you a little email to say thank you for all your hard work. I'm delighted I chose you as my partner. Your websites are quite simple to edit and maintain, which is fantastic.</p>
                         <div class="my-4"><svg class="bi bi-star-fill me-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#EFAB18" viewBox="0 0 16 16">
                             <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
@@ -511,7 +540,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-7 col-xxl-5 mx-auto text-center mt-5">
-              <h5 class="fw-bold fs-3 fs-lg-5 lh-sm mb-5">Contact Us</h5>
+              <h5 class="fw-bold fs-3 fs-lg-5 lh-sm mb-5 text-gradient" >Contact Us</h5>
             </div>
           </div>
         </div><!-- end of .container-->
