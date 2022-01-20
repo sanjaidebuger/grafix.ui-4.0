@@ -25,8 +25,7 @@
 marquee{
     font-weight: bold;
     font-size: 50px;
-    color: rgb(
-        ;
+    color: rgba(90, 83, 83, 0.192);
 }
 @media (max-width:750px) {
   .grad{
