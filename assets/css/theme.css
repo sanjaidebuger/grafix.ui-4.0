@@ -17598,6 +17598,7 @@ ul {
   .bg-size {
     background-size: contain;
   }
+  
 }
 
 /* -------------------------------------------------------------------------- */
@@ -17976,6 +17977,10 @@ ul {
     background-image: -o-linear-gradient(250deg, rgba(78, 146, 249, 0.034), rgba(78, 146, 249, 0.642));
     background-image: linear-gradient(200deg, rgba(78, 146, 249, 0.034), rgba(78, 146, 249, 0.642));
   }
+.grad{
+  height: 90vh;
+}
+
 }
 
 .feature-square {
@@ -18681,3 +18686,6 @@ ul {
 -----------------------------------------------*/
 
 /*# sourceMappingURL=theme.css.map */
+@media screen {
+  
+}
