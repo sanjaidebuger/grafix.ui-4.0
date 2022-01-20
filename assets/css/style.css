@@ -22,11 +22,12 @@
     font-size:80px;
 }
 
-marquee{
+marquee {
     font-weight: bold;
     font-size: 50px;
     color: rgba(90, 83, 83, 0.13);
 }
+
 @media (max-width:750px) {
   .grad{
     height: 100vh;
