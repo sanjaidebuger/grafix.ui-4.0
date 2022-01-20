@@ -25,11 +25,13 @@
 marquee{
     font-weight: bold;
     font-size: 50px;
-    color: #fff;
+    color: rgb(85, 85, 85);
 }
 @media (max-width:750px) {
   .grad{
     height: 100vh;
   }
-  
+  marquee{
+      color: #fff;
+  }
 }
