@@ -1,14 +1,17 @@
 
 const simpleParallax = require('simple-parallax-js');
 
-const image = document.getElementsByClassName('thumbnail');
-new simpleParallax(image);
+// const image = document.getElementsByClassName('thumbnail');
+// new simpleParallax(image);
 
 
 
 // Down code for multiple img or videos
-// const images = document.querySelectorAll('img');
-// new simpleParallax(images);
+const images = document.querySelectorAll('img');
+new simpleParallax(images, {
+	delay: .6,
+	transition: 'cubic-bezier(0,0,0,1)'
+});
 
 
 // simpleParallax now works with video :
