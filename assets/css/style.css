@@ -21,9 +21,15 @@
 .hero-h1{
     font-size:80px;
 }
-@media (max-width:550px) {
+
+marquee{
+    font-weight: bold;
+    font-size: 50px;
+    color: #fff;
+}
+@media (max-width:750px) {
   .grad{
-    height: 60vh;
+    height: 100vh;
   }
   
 }
