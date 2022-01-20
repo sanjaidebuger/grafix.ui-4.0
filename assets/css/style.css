@@ -18,9 +18,12 @@
 	}
 }
 
+.hero-h1{
+    font-size:80px;
+}
 @media (max-width:550px) {
   .grad{
-    height: 20vh;
+    height: 60vh;
   }
   
 }

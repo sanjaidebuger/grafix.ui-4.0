@@ -1,8 +1,12 @@
 
 const simpleParallax = require('simple-parallax-js');
 
-const image = document.getElementsByClassName('whyus');
-new simpleParallax(image);
+const image = document.getElementsByClassName("whyus");
+new simpleParallax(image, {
+	delay: .6,
+	transition: 'cubic-bezier(0,0,0,1)',
+    overflow: true
+});
 
 
 
