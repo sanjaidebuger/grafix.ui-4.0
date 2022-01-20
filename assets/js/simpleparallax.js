@@ -1,7 +1,7 @@
 
 const simpleParallax = require('simple-parallax-js');
 
-const image = document.getElementsByClassName('');
+const image = document.getElementsByClassName('whyus');
 new simpleParallax(image);
 
 
@@ -10,7 +10,8 @@ new simpleParallax(image);
 const images = document.querySelectorAll('img');
 new simpleParallax(images, {
 	delay: .6,
-	transition: 'cubic-bezier(0,0,0,1)'
+	transition: 'cubic-bezier(0,0,0,1)',
+    overflow: true
 });
 
 
