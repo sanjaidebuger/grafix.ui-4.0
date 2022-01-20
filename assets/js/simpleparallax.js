@@ -1,8 +1,8 @@
 
 const simpleParallax = require('simple-parallax-js');
 
-// const image = document.getElementsByClassName('thumbnail');
-// new simpleParallax(image);
+const image = document.getElementsByClassName('');
+new simpleParallax(image);
 
 
 
