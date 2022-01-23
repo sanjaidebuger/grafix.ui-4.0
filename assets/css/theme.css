@@ -1,19 +1,8 @@
-/* -------------------------------------------------------------------------- */
-/*                                 Theme                                      */
-/* -------------------------------------------------------------------------- */
-/* prettier-ignore */
-/* -------------------------------------------------------------------------- */
-/*                                  Utilities                                 */
-/* -------------------------------------------------------------------------- */
+
 /*-----------------------------------------------
 |   Bootstrap Styles
 -----------------------------------------------*/
-/*!
- * Bootstrap v5.0.0-alpha1 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
 :root {
   --bs-blue: #4E92F9;
   --bs-indigo: #8845FF;
@@ -18300,7 +18289,7 @@ ul {
 .border-navbar-gradient {
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(10.94%, rgba(255, 255, 255, 0.890625)), color-stop(86.46%, #FFFFFF), to(rgba(255, 255, 255, 0)));
   background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.890625) 10.94%, #FFFFFF 86.46%, rgba(255, 255, 255, 0) 100%);
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.890625) 10.94%, #FFFFFF 86.46%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.890625) 10.94%, #FFFFFF 66.46%, rgba(255, 255, 255, 0) 60%);
   -webkit-backdrop-filter: blur(60px);
   backdrop-filter: blur(60px);
 }
